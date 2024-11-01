@@ -1,0 +1,552 @@
+****************************************************************************
+***                           Sentaurus Device                           ***
+***                          Version N-2017.09                           ***
+***                        (1.563, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1994-2017                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+	Running on machine with the following configuration:
+	Host Name: localhost.localdomain
+	Operating System: Linux rel. 2.6.32-504.el6.x86_64 ver. #1 SMP Tue Sep 16 01:56:35 EDT 2014
+	Machine Type: x86_64
+	Process ID: 53646
+	Number of processors: 8
+	Domain Name: (none)
+	Date: Fri Nov  1 17:28:01 2024  (CST)
+
+Parsing "/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/Molefraction.txt"
+Fri Nov  1 17:28:11 2024: checked out 1 sdevice license(s)
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource2.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_sRL.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/bs_psource.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_pGC.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_SRL1.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource2.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/scm/ferroelectric.ccf
+Parsing circuit file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/scm/MOS_harness.ccf
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/scm/MOS_harness.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/scm/ferroelectric.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource2.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_SRL1.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_pGC.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/bs_psource.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_vsource.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_sRL.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource2.so.linux64
+Loading shared object file /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice/sd_hb_isource.so.linux64
+Fri Nov  1 17:28:11 2024: checked out 1 sdevice-traps license(s)
+
+Input source: pp2_des.cmd
+
+===============================
+
+Output file: n2_des.log
+
+
+GlobalParameter {
+}
+no ACExtract file
+
+PMIPath file: /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice-27.0.563 /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice
+
+CMIPath file: /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/sdevice /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/lib/scm
+
+SPICEPath file: /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/sdevice-27.0.563/spice
+
+no DevicePath file
+
+no CIRCUITSAVENAME file
+
+no CIRCUITLOADNAME file
+
+Numerical parameters:
+  Absolute error : 
+    Poisson : 1.0000e-03
+    eqPoisson : 1.0000e-03
+    Electron : 1.0000e-05
+    Hole : 1.0000e-05
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1.0000e-05
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e-05
+    QW-eScattering-Equation : 1.0000e-05
+    QW-hScattering-Equation : 1.0000e-05
+    Optical Problem : 1.0000e-03
+    Wavelength : 1.0000e-03
+    Bandstructure : 1.0000e-03
+    EmissionTable : 1.0000e-03
+    DephasingRates : 1.0000e-03
+    Photon Recycling : 1.0000e-03
+    Electron-Temperature : 1.0000e-04
+    Hole-Temperature : 1.0000e-04
+    Lattice-Hole-Electron-Temperature : 1.0000e-03
+    Circuit : 1.0000e-03
+    TCircuit : 1.0000e-03
+    Contact : 1.0000e-03
+    TContact : 1.0000e-03
+    Continuation : 1.0000e-03
+    eLaplace : 1.0000e-03
+    hLaplace : 1.0000e-03
+    tLaplace : 1.0000e-03
+    MonteCarlo : 1.0000e-03
+    MCPoissonPDE : 1.0000e-03
+    eQuantumPotential : 1.0000e-03
+    hQuantumPotential : 1.0000e-03
+    quasi-fermi-potential : 1.0000e-03
+    ConductiveInsulator : 1.0000e-03
+    ContactAndConductiveInsulator : 1.0000e-03
+    SingletExciton : 1.0000e-05
+    FEPolarization : 1.0000e-05
+    eHopping : 1.0000e-03
+    hHopping : 1.0000e-03
+    HydrogenAtom : 1.0000e-03
+    HydrogenMolecule : 1.0000e-03
+    HydrogenIon : 1.0000e-03
+    HydrogenSiliconBondOccupation : 1.0000e-03
+    TrapPDE : 1.0000e-03
+    eSHEDistribution : 1.0000e-03
+    hSHEDistribution : 1.0000e-03
+    Landau-Lifshitz-Gilbert[theta] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[phi] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[x] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[y] : 1.0000e-03
+    Landau-Lifshitz-Gilbert[z] : 1.0000e-03
+    Mechanics : 1.0000e-03
+    ExternalTransportSolver : 1.0000e-03
+    ReactionDiffusionPDE : 1.0000e-03
+  RelErrControl (Reference error): 
+    Poisson : 0.025852
+    eqPoisson : 1
+    Electron : 1.0000e+10
+    Hole : 1.0000e+10
+    Photon-Rate-Equation : 1.0000e-07
+    Photon-Phase-Equation : 1
+    Rate-Stabilize-Equation : 1.0000e-07
+    QW-Scattering-Equations : 1.0000e+10
+    QW-eScattering-Equation : 1.0000e+10
+    QW-hScattering-Equation : 1.0000e+10
+    Optical Problem : 1
+    Wavelength : 1
+    Bandstructure : 1
+    EmissionTable : 1
+    DephasingRates : 1
+    Photon Recycling : 1
+    Electron-Temperature : 3.0000e+02
+    Hole-Temperature : 3.0000e+02
+    Lattice-Hole-Electron-Temperature : 3.0000e+02
+    Circuit : 1
+    TCircuit : 1
+    Contact : 0.025852
+    TContact : 1
+    Continuation : 1
+    eLaplace : 1
+    hLaplace : 1
+    tLaplace : 1
+    MonteCarlo : 1
+    MCPoissonPDE : 1
+    eQuantumPotential : 0.025852
+    hQuantumPotential : 0.025852
+    quasi-fermi-potential : 0.025852
+    ConductiveInsulator : 1
+    ContactAndConductiveInsulator : 1
+    SingletExciton : 1.0000e+10
+    FEPolarization : 0.025852
+    eHopping : 0.025852
+    hHopping : 0.025852
+    HydrogenAtom : 1.0000e+10
+    HydrogenMolecule : 1.0000e+10
+    HydrogenIon : 1.0000e+10
+    HydrogenSiliconBondOccupation : 1
+    TrapPDE : 1.0000e-05
+    eSHEDistribution : 0.025852
+    hSHEDistribution : 0.025852
+    Landau-Lifshitz-Gilbert[theta] : 1
+    Landau-Lifshitz-Gilbert[phi] : 1
+    Landau-Lifshitz-Gilbert[x] : 1
+    Landau-Lifshitz-Gilbert[y] : 1
+    Landau-Lifshitz-Gilbert[z] : 1
+    Mechanics : 1
+    ExternalTransportSolver : 1
+    ReactionDiffusionPDE : 1
+  Relative error : 5 digits
+  Without checked transient error
+  Max. #iterations : 50
+  LineSearchDamping=1
+  #undamped iterations : 1000
+  No incomplete Newton
+  transient method : TR-BDF
+  Linear solver : blocked decomposition
+  Linear solver for AC analysis : blocked decomposition
+  Linear solver for SHEDistribution Model : Super
+  do not use extrapolation in transient/quasistationary computations
+  use complex supernodal in ac-analysis (if possible)
+  do not use smoothed PDE's in transient/quasistationary computations
+  use automatic coupling of contact/circuit stuff
+  Spice temperature: 3.0015e+02
+  Spice nominal temperature of parameter measurements: 3.0015e+02
+  Spice minimum conductance gmin: 1.0000e-12
+  Use 64 bit (double) normal precision floating point arithmetic.
+  Mininum |rhs| : 1.0000e-05
+  Maximum |rhs| : 1.0000e+15
+  Maximum |rhs| factor : 1.0000e+10
+  Maximum |rhs| factor1 : 1.0000e+10
+  Lattice Temperature Range : (50,5.0000e+03)
+  Carrier Temperature Range : (10,8.0000e+04)
+  Simplified first order SHE of BTE will be solved
+  SHERefinementCutoff : 20
+  No user dependencies.
+  Number of assembly threads: 1 (default)
+  Number of solver threads: 1 (OMP_NUM_THREADS)
+  Thread stacksize: 1000000 bytes (default)
+  Go serial if not enough parallel licenses are available.
+
+Default device parameters:
+  RayTrace Boundaries:
+  Files:
+    no Boundary file
+    Grid file: n1_fps.tdr
+    no Doping file
+    no MobilityDoping file
+    no Load file
+    no Save file
+    Plot file: n2_des.tdr
+    no DevFieldsName file
+    AutoNewtonPlot file: n2_des_%d_des.tdr
+    no Path file
+    no Lifetime file
+    no Temperature file
+    no Current file
+    no PMIUserFields file
+    no Extraction file
+    no ModelParameters file
+    ParameterPath directories: 
+    no Piezo file
+    no mcDOS file
+    no ModeGain file
+    no Optical emission table for stimulated emission file
+    no Optical emission table for spontaneous emission file
+    no Optical emission table for photon phase change coefficient file
+    no EmissionTable file
+    no DephasingRates file
+    no ASESpectrum file
+    no OpticalFarField file
+    no OpticalIntensityPattern file
+    no SaveOpticalIntensityPattern file
+    no OpticalXYAnglePattern file
+    no SaveOpticalXYAnglePattern file
+    no IlluminationSpectrum file
+    no SpectralPlot file
+    no OpticalSolverInput file
+    no OpticalGenerationInput file
+    no OpticalGenerationOutuput file
+    no OptGenTransientScaling file
+    no MonteCarloInput file
+    no MonteCarloOutput file
+    no ACPlot file
+-----------------------------------------------
+  Numerical parameters:
+    With exact derivatives
+    With avalanche derivatives
+    Using old wavelength search algorithm
+    Do not reinitialize quasi Fermi potentials in quasi-stationary simulations
+    Ignore ionization integral constraints
+    Without diagonal preconditioning
+    With Scharfetter-Gummel Discretization
+    Relative error : 5 digits
+    Delta for numerical tunnelling derivatives : 1.0000e-03
+    Do not compute breakdown paths and ionization integrals
+    QuasiFermiPotential is used for Contact Equation
+    With usage of best vertex in element (maximum element-vertex volume angle) for impact ionization models
+-----------------------------------------------
+-----------------------------------------------
+  Physical models:
+    Without incomplete ionization
+    Use Si parameters
+    TATNonlocalPathNC = 0.0000e+00
+    Without SRH-Recombination
+    Without CDL-Recombination
+    With optical generation computation 
+    Without Band-to-Band-Tunneling
+    Without Auger-Recombination
+    Without Radiative Recombination
+    Without Surface-Recombination
+    Without Trap-Assisted-Auger-Recombination
+    PMI recombination models: none
+    Without thermal resistance interfaces
+    Without distributed resistance interfaces for electrons
+    Without distributed resistance interfaces for holes
+    Without Piezo
+    Without Anisotropic Material Properties
+    Without Avalanche-Generation 
+    Without Alpha Particle
+    Without Heavy Ion
+    Without polarization
+    Volume charge density: 0.0000e+00 cm^-3
+    Device Temperature = 3.0000e+02 K
+    Electron Quasi Fermi Potential: 0.0000e+00 V
+    Hole Quasi Fermi Potential: 0.0000e+00 V
+    Without MagneticField
+    With SingletExciton Barrier Type
+    Intrinsic density models:
+      default bandgap model
+      Bandgap narrowing model: Bennett/Wilson with bandgap narrowing (no Fermi)
+    default affinity model
+    default effective mass model
+    Electron mobility:
+      no Doping dependence (using constant mobility)
+      no Carrier-Carrier scattering
+      no E_normal dependence
+      Without ThinLayer mobility model
+      no high-field saturation
+      Einstein relation for diffusivity-mobility ratio.
+    Hole mobility:
+      no Doping dependence (using constant mobility)
+      no Carrier-Carrier scattering
+      no E_normal dependence
+      Without ThinLayer mobility model
+      no high-field saturation
+      Einstein relation for diffusivity-mobility ratio.
+    Energy relaxation time model: according to formula in parameter file
+    Schottky resistance model: default bult-in model
+    Lattice thermal conductivity model: according to formula in parameter file
+    Metal Resistivity model: according to formula in parameter file
+    Thermo Electric Power model: extraploted Si data
+    Metal Thermo Electric Power model: MetalThermoElectricPower model not defined
+    Lattice heat capacity model: temperature dependent
+    no piezoelectric polarization model
+    Without default parameters from file (use built-in default parameters)
+-----------------------------------------------
+- - - - - - - - - - - - - - - - - - - - - - - - 
+  The following Physical models were changed
+              for Material = 'Silicon'
+    Without thermal resistance interfaces
+    Without distributed resistance interfaces for electrons
+    Without distributed resistance interfaces for holes
+    With Bulk Traps:
+      FixedCharge Concentration = 1.0000e+16 cm^-3
+- - - - - - - - - - - - - - - - - - - - - - - -
+  Process information for extraction purposes:
+    none
+  Plot variables:
+    ElectrostaticPotential
+    ElectricField
+    DopingConcentration
+    eDensity
+    hDensity
+    SpaceCharge
+    eQuasiFermiPotential
+    hQuasiFermiPotential
+    eAmorphousTrappedCharge
+    hAmorphousTrappedCharge
+    eAmorphousRecombination
+    hAmorphousRecombination
+
+------------------------------------------------
+  NoisePlot variables:
+    none
+  Plot groups:
+    none
+
+------------------------------------------------
+  CurrentPlot variables:
+    none
+Devices:
+Systems:
+Solve :
+
+===============================
+
+Reading grid 'n1_fps.tdr' ... 
+
+The TDR file "n1_fps.tdr" contains more than one geometry.
+Sentaurus Device only uses the first geometry !
+
+  coordinate system: UCS, 3d_sprocess (x is device down direction)
+  use coordinate system as is (no transformation)
+  TDR format
+  Number of grid points is 9261.
+done.
+
+Adding interfaces and contacts .... done.
+
+Computing edges ...
+  Number of edges: 59660
+done.
+Computing boxes ...
+
+  CVPL_AverageBoxMethod = TRUE 
+   
+  Boxmethod Parallel Computing: nbThreads = 1 
+
+  Computing Voronoi faces, coefficients, and measures ... 
+  CVPL_Algorithm = TRUE 
+
+    Computing Obtuse Elements ... 
+     Obtuse Elements time:  tcpu = 0.13 s
+      New Parameters time: (wallclock = 0.41 s, tcpu = 0.41 s)
+
+Info for all regions (NumberOfRegions = 1):
+        ElementWithMinVolume( 36310) Vertex0( 6966)( 7.500000e-01, 8.000000e-01, 7.500000e-01) Volume = 2.083333e-05 um3 (2.08e-05 from TotalVolume)
+          ElementWithMinEdge(    30) Vertex0(   36)( 0.000000e+00, 5.000000e-02, 7.500000e-01) Length = 5.000000e-02 um
+              MaxFlatElement( 47999) Vertex0( 9260)( 1.000000e+00, 1.000000e+00, 1.000000e+00)  Angle = 9.000000e+01 degrees
+   ElementWithMaxQualityEdge( 23710) Vertex0( 4656)( 5.000000e-01, 5.500000e-01, 7.500000e-01)    R/L = 8.660254e-01 
+ ElementWithMaxQualityHeight(  8348) Vertex0( 1842)( 2.000000e-01, 1.500000e-01, 7.500000e-01)    R/H = 8.798364e+02 
+
+Info for semiconductor regions (NumberOfRegions = 1):
+        ElementWithMinVolume( 36310) Vertex0( 6966)( 7.500000e-01, 8.000000e-01, 7.500000e-01) Volume = 2.083333e-05 um3 (2.08e-05 from TotalVolume)
+          ElementWithMinEdge(    30) Vertex0(   36)( 0.000000e+00, 5.000000e-02, 7.500000e-01) Length = 5.000000e-02 um
+   ElementWithMaxQualityEdge( 23710) Vertex0( 4656)( 5.000000e-01, 5.500000e-01, 7.500000e-01)    R/L = 8.660254e-01 
+ ElementWithMaxQualityHeight(  8348) Vertex0( 1842)( 2.000000e-01, 1.500000e-01, 7.500000e-01)    R/H = 8.798364e+02 
+
+   NumberOfEdges              =  59660 
+   NumberOfGeometricalEdges   =  59660 
+   NumberOfDoubleEdges        =      0 
+   MaxNumberOfEdgesPerVertex  =     14; vertex(463) = ( 5.000000e-02,  5.000000e-02,  5.000000e-02) [um]
+   MaxNumberOfElementsPerEdge =      6; edge(4) = (1, 462) 
+                                        vertex(1) = ( 0.000000e+00,  0.000000e+00,  5.000000e-02) [um]
+                                        vertex(462) = ( 5.000000e-02,  5.000000e-02,  0.000000e+00) [um]
+
+                        NumberOfVertices =   9261 
+                        NumberOfElements =  48000 
+                    NumberOfTetrahedrons =  48000  (100.0 %)
+                  NumberOfObtuseElements =      0  ( 0.00 %)
+             NumberOfNonDelaunayElements =      0  ( 0.00 %)
+
+  VertexWithMaxMeasure( 2862)( 3.000000e-01, 5.000000e-01, 3.000000e-01)
+  MaxVertMeasure(1.250000e-04)/VertVolume(2.083333e-05) = 6.00e+00
+
+
+/-------- Region non-Delaunay elements -------------------------------------------------------------------
+ Region        Volume      BoxMethodVolume  DeltaVolume  Elements  non-Delaunay      non-DelaunayVolume 
+  name          [um3]          [um3]           [%]                   Elements              [um3]   [%]   
+ ---------------------------------------------------------------------------------------------------------
+ Silicon_1  1.0000000e+00  1.0000000e+00     6.6e-11     48000       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+ .........................................................................................................
+ Total      1.0000000e+00  1.0000000e+00     6.6e-11     48000       0 ( 0.00 %)   0.0000000e+00 ( 0.0000) 
+\---------------------------------------------------------------------------------------------------------
+    done.
+  done.
+  (times: wallclock = 0.72 s, tcpu = 0.71 s)
+done.
+Reading doping 'n1_fps.tdr' (TDR format) ...
+
+The TDR file "n1_fps.tdr" contains more than one geometry.
+Sentaurus Device only uses the first geometry !
+
+  coordinate system: UCS, 3d_sprocess (x is device down direction)
+  use coordinate system as is (no transformation)
+done.
+done.
+
+
+=======
+Region: "Silicon_1"
+  (material is "Silicon")
+=======
+  Using lattice crystal coordinate system from TDR file:
+    slice.angle                   : -9.0000e+01 [deg]
+    wafer.orient, vertical.orient : (0, 0, 1)
+    flat.orient, horizontal.orient: [1, 1, 0]
+    miscut.tilt                   : 0.0000e+00 [deg]
+    miscut.toward                 : [1, 1, 0]
+    lattice.system                : cubic
+    polytype                      : Zincblende
+    lattice.const                 : 5.4310e-08 [cm]
+    lattice.const.b               : 5.4310e-08 [cm]
+    lattice.const.c               : 5.4310e-08 [cm]
+    unit cell angles: alpha = 90, beta = 90, gamma = 90 [deg]
+    effective LatticeParameters:
+      X = (0.0000e+00, 0.0000e+00, -1.0000e+00)
+      Y = (-7.0711e-01, 0.707107, 0.0000e+00)
+      Z = (0.707107, 0.707107, 0.0000e+00)
+  Constants are not modified and equal to default ones
+
+
+No individual doping species found in doping file!
+Recognized doping species are:
+    acceptors:
+        BoronConcentration
+        AluminumConcentration
+        IndiumConcentration
+        PDopantConcentration
+        BoronActiveConcentration
+        AluminumActiveConcentration
+        IndiumActiveConcentration
+        PDopantActiveConcentration
+        BerylliumConcentration
+        BerylliumActiveConcentration
+        pCarbonConcentration
+        pCarbonActiveConcentration
+        pGermaniumConcentration
+        pGermaniumActiveConcentration
+        pSiliconConcentration
+        pSiliconActiveConcentration
+        pTinConcentration
+        pTinActiveConcentration
+        ZincConcentration
+        ZincActiveConcentration
+    donors:
+        ArsenicConcentration
+        PhosphorusConcentration
+        AntimonyConcentration
+        NitrogenConcentration
+        NDopantConcentration
+        ArsenicActiveConcentration
+        PhosphorusActiveConcentration
+        AntimonyActiveConcentration
+        NitrogenActiveConcentration
+        NDopantActiveConcentration
+        nCarbonConcentration
+        nCarbonActiveConcentration
+        nGermaniumConcentration
+        nGermaniumActiveConcentration
+        nSiliconConcentration
+        nSiliconActiveConcentration
+        nTinConcentration
+        nTinActiveConcentration
+        SeleniumConcentration
+        SeleniumActiveConcentration
+        SulfurConcentration
+        SulfurActiveConcentration
+        TelluriumConcentration
+        TelluriumActiveConcentration
+
+Acceptor and donor concentrations (AcceptorConcentration, DonorConcentration):
+    computed based on net doping
+Net doping concentration (DopingConcentration):
+    not found in doping file
+Total doping concentration (TotalConcentration):
+    not found in doping file
+
+
+Fri Nov  1 17:28:18 2024: checked out 1 sdevice-3d license(s)
+
+With Constant Reference Potential:
+  Parameters of Reference Semiconductor:
+    The Electron Affinity: 4.07274
+    The Band Gap: 1.12416
+    The Electron DOS: 2.8567e+19
+    The Hole DOS: 3.1046e+19
+  The Constant Reference Potential: 4.63374
+Writing plot 'n2_des.tdr' (TDR format) ... done.
+
+Fri Nov  1 17:28:19 2024: checked in 1 sdevice-3d license(s)
+Fri Nov  1 17:28:19 2024: checked in 1 sdevice-traps license(s)
+Fri Nov  1 17:28:19 2024: checked in 1 sdevice license(s)
+
+******************************************************************************
+Sentaurus Device process size: 701 megabytes
+Sentaurus Device simulation times:
+  wallclock: 18.24 s
+  total cpu: 8.32 s
+Sentaurus Device simulation finished (Date: Fri Nov  1 17:28:19 2024  (CST)).
+********************************* Good Bye ! *********************************

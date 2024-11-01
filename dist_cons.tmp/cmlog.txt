@@ -1,0 +1,5 @@
+DATE: 10/31/24 - 10/31/24 cmlog.txt
+
+This localhost (server) information:
+	Name:    localhost
+	Address: 127.0.0.1

@@ -1,0 +1,96 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gsub                       ***
+***                          Version N-2017.09                           ***
+***                        (1.563, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2017 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gsub is running on host 'localhost' by user 'sentaurus'
+Binary '/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/bin/../lib/gsub0'
+Command line options '-verbose -swb_pid 22907 -q local:default -e {1 + 2} /home/sentaurus/STDB/tmp/dist_cons.tmp'
+Current directory '/home/sentaurus'
+Some relevant environment variables:
+	STROOT=/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/..
+	STRELEASE=current
+	STROOT_LIB=/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib
+	STDB=/home/sentaurus/STDB
+	DATEX=/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=unix:0.0
+
+Starting swblm daemon...OK
+Loading global tool database '/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/glib2/tooldb.tcl'
+Project '/home/sentaurus/STDB/tmp/dist_cons.tmp'
+04:00:10 Nov 01 2024 <dist_cons.tmp> submitted to the batch system
+Loading global queue configuration file '/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../queues/gqueues.dat'...ok
+Loading project tree '/home/sentaurus/STDB/tmp/dist_cons.tmp/gtree.dat'
+>>>>> Preprocessing the project to run in normal mode
+Loading jobs and dependence graph '"/home/sentaurus/STDB/tmp/dist_cons.tmp/gexec.cmd"'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/sentaurus/STDB/tmp/dist_cons.tmp/gtree.dat'
+Loading project variables '/home/sentaurus/STDB/tmp/dist_cons.tmp/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/sentaurus/STDB/tmp/dist_cons.tmp/sprocess_fps.cmd
+Reading file /home/sentaurus/STDB/tmp/dist_cons.tmp/sdevice_des.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/sentaurus/STDB/tmp/dist_cons.tmp/sprocess_fps.cmd fornode 1
++++Node successfully preprocessed+++
+Preprocessing file /home/sentaurus/STDB/tmp/dist_cons.tmp/sdevice_des.cmd fornode 2
+'@tdr@' creates dependences with the node(s) '1'
++++Node successfully preprocessed+++
+The node '2' has dependencies to the node(s) '1'
+Writing 'gexec.cmd'
+saving variables
+Loading jobs and dependence graph '"/home/sentaurus/STDB/tmp/dist_cons.tmp/gexec.cmd"'
+>>>>>>>>>> job '1' status changed from 'done' to 'queued'
+>>>>>>>>>> job '2' status changed from 'done' to 'queued'
+-----------------------------------------------------------------
+queue "local:default" - 1 2
+-----------------------------------------------------------------
+>>>>> cleaning the index file from previous simulations 
+                       /home/sentaurus/STDB/tmp/dist_cons.tmp/.gindex
+>>>>>>>>>> Initializing back-end schedulers...
+>>>>>>>> Loaded Schedulers are ... local
+local% initialize 'local' scheduler data
+>>>>> List of Active Schedulers : local
+<<<<<<<<<<
+>>>>>>>>>> job '1' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/sentaurus/STDB/tmp/dist_cons.tmp/n1_fps.job
+local% submit job 1 for local execution
+>>>>>>>>>> job '1' status changed from 'ready' to 'pending'
+local% exec "/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../bin/gjob -verbose -nice 19  -job 1 -swb_pid 22907 -gsub_pid 51133 -gsub_host localhost -gsub_port 59689 "/home/sentaurus/STDB/tmp/dist_cons.tmp""
+>>>>>>>>>> job '1' status changed from 'pending' to 'running'
+04:00:11 Nov 01 2024     job 1 <sprocess> started on host 'localhost': "sprocess -u n1_fps.cmd"
+>>>>>>>>>> job '1' status changed from 'running' to 'done'
+04:00:27 Nov 01 2024 +++ job 1 <sprocess> done: exit(0)
+>>>>>>>>>> job '2' status changed from 'queued' to 'ready'
+>>>>>>>>>> os_rm /home/sentaurus/STDB/tmp/dist_cons.tmp/n2_des.job
+local% submit job 2 for local execution
+>>>>>>>>>> job '2' status changed from 'ready' to 'pending'
+local% exec "/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../bin/gjob -verbose -nice 19  -job 2 -swb_pid 22907 -gsub_pid 51133 -gsub_host localhost -gsub_port 59689 "/home/sentaurus/STDB/tmp/dist_cons.tmp""
+>>>>>>>>>> job '2' status changed from 'pending' to 'running'
+04:00:28 Nov 01 2024     job 2 <sdevice> started on host 'localhost': "sdevice pp2_des.cmd"
+>>>>>>>>>> job '2' status changed from 'running' to 'done'
+04:00:40 Nov 01 2024 +++ job 2 <sdevice> done: exit(0)
+
+SCHEDULING REPORT
++++ done     : 1 2
+
+04:00:42 Nov 01 2024 <dist_cons.tmp> done (32 sec)
+>>>>>> Writing to status file 32
+gsub exits with status 0

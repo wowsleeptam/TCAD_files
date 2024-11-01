@@ -1,0 +1,72 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 01, 2024. 17:29:19.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/tmp/save_from_file.tmp/n2_des.tdr
+create_plot -dataset n2_des_geometry_0
+select_plots {Plot_n2_des_geometry_0}
+#-> Plot_n2_des_geometry_0
+#-> Plot_n2_des_geometry_0
+create_plot -dataset n2_des_geometry_1
+select_plots {Plot_n2_des_geometry_1}
+#-> Plot_n2_des_geometry_1
+#-> Plot_n2_des_geometry_1
+#-> n2_des_geometry_0
+select_plots {Plot_n2_des_geometry_0}
+#-> Plot_n2_des_geometry_0
+set_field_prop -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 eDensity -show_bands
+#-> 0
+set_field_prop -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 eGapStatesRecombination -show_bands
+#-> 0
+set_field_prop -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 eDensity -show_bands
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -off
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -on
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -hide_bulk
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -hide_field
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -hide_border
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -hide_vector
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -show_mesh
+#-> 0
+rotate_plot -plot Plot_n2_des_geometry_0 -x 131.305 -y 108.875 -z -54.0072 -absolute
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -show_border
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -hide_border
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -show_field
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -hide_field
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -show_bulk
+#-> 0
+rotate_plot -plot Plot_n2_des_geometry_0 -x 134.436 -y 79.6067 -z -39.1285 -absolute
+#-> 0
+rotate_plot -plot Plot_n2_des_geometry_0 -x 134.3 -y 101.464 -z -62.1446 -absolute
+#-> 0
+set_field_prop -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 eGapStatesRecombination -show_bands
+#-> 0
+set_field_prop -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 eDensity -show_bands
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des_geometry_0 -geom n2_des_geometry_0 -hide_bulk
+#-> 0
+rotate_plot -plot Plot_n2_des_geometry_0 -x 128.14 -y 103.792 -z -48.8418 -absolute
+#-> 0
+rotate_plot -plot Plot_n2_des_geometry_0 -x 131.157 -y 99.6008 -z -58.2722 -absolute
+#-> 0
+exit 0
+ 

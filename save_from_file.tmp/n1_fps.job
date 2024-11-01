@@ -1,0 +1,55 @@
+
+****************************************************************************
+***                       Sentaurus Workbench gjob                       ***
+***                          Version N-2017.09                           ***
+***                        (1.563, x86_64, Linux)                        ***
+***                                                                      ***
+***                Copyright (c) 1994-2017 Synopsys, Inc.                ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+gjob is running on host 'localhost' by user 'sentaurus'
+Binary '/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/linux64/bin/../lib/gjob0'
+Command line options '-verbose -nice 19 -job 1 -swb_pid 22907 -gsub_pid 53466 -gsub_host localhost -gsub_port 36802 /home/sentaurus/STDB/tmp/save_from_file.tmp'
+Current directory '/home/sentaurus/STDB/tmp/save_from_file.tmp'
+Some relevant environment variables:
+	STROOT=/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/..
+	STRELEASE=current
+	STROOT_LIB=/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib
+	STDB=/home/sentaurus/STDB
+	DATEX=/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/datexcodes.txt
+	DISPLAY=unix:0.0
+
+Project '/home/sentaurus/STDB/tmp/save_from_file.tmp'
+Loading global tool database '/home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/glib2/tooldb.tcl'
+INITIALIZING PREPROCESSOR:
+Loading project tree '/home/sentaurus/STDB/tmp/save_from_file.tmp/gtree.dat'
+Loading jobs and dependence graph '"/home/sentaurus/STDB/tmp/save_from_file.tmp/gexec.cmd"'
+Loading project variables '/home/sentaurus/STDB/tmp/save_from_file.tmp/gvars.dat'
+--Get files to preprocess...
+--Create file handlers...
+--Read the toolflow...
+--Analyze tool-file dependencies...
+--Read all nodes to preprocess...
+--Group nodes into experiments...
+--Get all variables...
+--Get all parameters...
+PREPROCESSOR SUCCESSFULLY INITIALIZED.
+PREPROCESSING STEP 1:
+Reading file /home/sentaurus/STDB/tmp/save_from_file.tmp/sprocess_fps.cmd
+PREPROCESSING STEP 2:
+Preprocessing file /home/sentaurus/STDB/tmp/save_from_file.tmp/sprocess_fps.cmd fornode 1
++++Preprocessing results written to /home/sentaurus/STDB/tmp/save_from_file.tmp/pp1_fps.cmd
+Start Simulation section
+17:27:30 Nov 01 2024     job 1 <sprocess> started on host 'localhost': "sprocess -u n1_fps.cmd"
+17:27:55 Nov 01 2024 +++ job 1 <sprocess> done: exit(0)
+End Simulation section
+Start Epilogue section
+17:27:55 Nov 01 2024 *** job 1 pre/post execution: eval "  gjob::find_extracted_vars "/home/sentaurus/STDB/tmp/save_from_file.tmp" n1_fps.out 1; catch {os_cp "/home/sentaurus/STDB/tmp/save_from_file.tmp/n1_mdr.cmd" "/home/sentaurus/STDB/tmp/save_from_file.tmp/n1_msh.cmd"}; catch {os_cp "/home/sentaurus/STDB/tmp/save_from_file.tmp/n1_mdr.bnd" "/home/sentaurus/STDB/tmp/save_from_file.tmp/n1_msh.bnd"} "
+End Epilogue section
+Job succeeded
+gjob exits with status 0

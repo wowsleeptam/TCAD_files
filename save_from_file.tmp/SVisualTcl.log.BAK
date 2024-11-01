@@ -1,0 +1,28 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 01, 2024. 17:28:42.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/tmp/save_from_file.tmp/n2_des.tdr
+create_plot -dataset n2_des_geometry_0
+select_plots {Plot_n2_des_geometry_0}
+#-> Plot_n2_des_geometry_0
+#-> Plot_n2_des_geometry_0
+create_plot -dataset n2_des_geometry_1
+select_plots {Plot_n2_des_geometry_1}
+#-> Plot_n2_des_geometry_1
+#-> Plot_n2_des_geometry_1
+#-> n2_des_geometry_0
+select_plots {Plot_n2_des_geometry_0}
+#-> Plot_n2_des_geometry_0
+select_plots {Plot_n2_des_geometry_1}
+#-> Plot_n2_des_geometry_1
+exit 0
+ 

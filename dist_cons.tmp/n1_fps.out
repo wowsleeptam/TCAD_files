@@ -1,0 +1,115 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                          Version N-2017.09                           ***
+***                        (1.563, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2017                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Wed Aug  9 04:45:36 PDT 2017 on tcadprod35
+
+      Started at: Fri Nov  1 04:00:12 2024 (CST)
+       User name: sentaurus
+       Host name: localhost.localdomain
+             PID: 51195
+    Architecture: x86_64
+Operating system: Linux rel. 2.6.32-504.el6.x86_64 ver. #1 SMP Tue Sep 16 01:56:35 EDT 2014
+
+------------------------------------------------------------------------------
+Checking syntax of n1_fps.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Starting Tcl interpreter with inputfile: n1_fps.cmd
+            sprocess: Checked Out
+
+Loading models file: /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/sprocess-27.0.563/TclLib/SPROCESS.models... done.
+------------------------------------------------------------------- line -----
+line X location= 0.00e+00<um> spacing= 0.0500<um> tag= "top"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 1.00<um> spacing= 0.0500<um> tag= "bottom"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.00e+00<um> spacing= 0.0500<um> tag= "left"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 1.00<um> spacing= 0.0500<um> tag= "right"
+------------------------------------------------------------------------------
+----------------------------------------------------------------- region -----
+region xlo= "top" xhi= "bottom" ylo= "left" yhi= "right" Silicon
+------------------------------------------------------------------------------
+------------------------------------------------------------------- init -----
+init !DelayFullD
+------------------------------------------------------------------------------
+          sprocess2d: Checked Out
+
+Creating structure...
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+
+Points: 441
+Nodes: 441
+Edges: 1240
+Faces: 800
+Volumes: 0
+
+
+Turning off restart capability for n1_fps.tdr (requires gas and interfaces)
+----------------------------------------------------------------- struct -----
+struct tdr= "n1" !Gas !interfaces
+------------------------------------------------------------------------------
+Points: 441
+Nodes: 441
+Edges: 1240
+Faces: 800
+Volumes: 0
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n1_fps.tdr...done
+
+------------------------------------------------------------------------------
+License features used:
+    sprocess
+    sprocess2d
+------------------------------------------------------------------------------
+
+Elapsed Time:	00:00:14
+User Time:	00:00:04
+CPU Time:	00:00:04
+
+Detailed CPU time report:
+
+0.86 sec (49.2%) Other Program Parts (1 calls).
+0.43 sec (24.6%) implant command (230 calls).
+0.19 sec (11.1%) struct command (1 calls).
+0.14 sec (8.1%) mater command (94 calls).
+
+Detailed elapsed time report:
+
+0.85 sec (48.2%) Other Program Parts (1 calls).
+0.42 sec (23.8%) implant command (230 calls).
+0.18 sec (10.5%) struct command (1 calls).
+0.18 sec (10.0%) mater command (94 calls).
+
+Simulation completed with 1 warning.
+================================================
+
+WARNING 1
+=======================================================
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value.
+

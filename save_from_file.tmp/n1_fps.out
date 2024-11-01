@@ -1,0 +1,129 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                          Version N-2017.09                           ***
+***                        (1.563, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2017                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Wed Aug  9 04:45:36 PDT 2017 on tcadprod35
+
+      Started at: Fri Nov  1 17:27:32 2024 (CST)
+       User name: sentaurus
+       Host name: localhost.localdomain
+             PID: 53532
+    Architecture: x86_64
+Operating system: Linux rel. 2.6.32-504.el6.x86_64 ver. #1 SMP Tue Sep 16 01:56:35 EDT 2014
+
+------------------------------------------------------------------------------
+Checking syntax of n1_fps.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Starting Tcl interpreter with inputfile: n1_fps.cmd
+            sprocess: Checked Out
+
+Loading models file: /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/sprocess-27.0.563/TclLib/SPROCESS.models... done.
+------------------------------------------------------------------- line -----
+line X location= 0.00e+00<um> spacing= 0.0500<um> tag= "bottom"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 1.00<um> spacing= 0.0500<um> tag= "top"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.00e+00<um> spacing= 0.0500<um> tag= "left"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 1.00<um> spacing= 0.0500<um> tag= "right"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Z location= 0.00e+00<um> spacing= 0.0500<um> tag= "z_bot"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Z location= 1.00<um> spacing= 0.0500<um> tag= "z_top"
+------------------------------------------------------------------------------
+----------------------------------------------------------------- region -----
+region xlo= "bottom" xhi= "top" ylo= "left" yhi= "right" zlo= "z_bot" zhi= "z_top" Silicon
+------------------------------------------------------------------------------
+------------------------------------------------------------------- init -----
+init !DelayFullD
+------------------------------------------------------------------------------
+          sprocess2d: Checked Out
+
+          sprocess3d: Checked Out
+
+Creating structure...
+Initializing boundary from bulk mesh...decimating...done.
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+
+Points: 9261
+Nodes: 9261
+Edges: 59660
+Faces: 98400
+Volumes: 48000
+
+
+Turning off restart capability for n1_fps.tdr (requires gas and interfaces)
+----------------------------------------------------------------- struct -----
+struct tdr= "n1" !Gas !interfaces
+------------------------------------------------------------------------------
+Points: 9261
+Nodes: 9261
+Edges: 59660
+Faces: 98400
+Volumes: 48000
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n1_fps.tdr...done
+
+------------------------------------------------------------------------------
+License features used:
+    sprocess
+    sprocess2d
+    sprocess3d
+------------------------------------------------------------------------------
+
+Elapsed Time:	00:00:24
+User Time:	00:00:14
+CPU Time:	00:00:13
+
+Detailed CPU time report:
+
+2.39 sec (35.5%) Other Program Parts (1 calls).
+1.24 sec (18.4%) implant command (230 calls).
+1.20 sec (17.9%) struct command (1 calls).
+0.97 sec (14.4%) init command (1 calls).
+0.50 sec (7.4%) mater command (94 calls).
+0.22 sec (3.3%) reaction command (68 calls).
+
+Detailed elapsed time report:
+
+2.41 sec (35.6%) Other Program Parts (1 calls).
+1.26 sec (18.6%) implant command (230 calls).
+1.20 sec (17.7%) struct command (1 calls).
+0.97 sec (14.4%) init command (1 calls).
+0.50 sec (7.4%) mater command (94 calls).
+0.24 sec (3.5%) reaction command (68 calls).
+
+Simulation completed with 1 warning.
+================================================
+
+WARNING 1
+=======================================================
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value.
+

@@ -1,0 +1,42 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Oct 31, 2024. 02:30:03.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/tmp/dist_cons.tmp/n2_des.tdr
+create_plot -dataset n2_des
+select_plots {Plot_n2_des}
+#-> Plot_n2_des
+#-> Plot_n2_des
+#-> n2_des
+set_field_prop -plot Plot_n2_des -geom n2_des SpaceCharge -show_bands
+#-> 0
+set_field_prop -plot Plot_n2_des -geom n2_des SpaceCharge -hide_bands
+#-> 0
+set_field_prop -plot Plot_n2_des -geom n2_des Y -show_bands
+#-> 0
+set_field_prop -plot Plot_n2_des -geom n2_des Y -hide_bands
+#-> 0
+set_field_prop -plot Plot_n2_des -geom n2_des Y -show_bands
+#-> 0
+set_material_prop {Silicon} -plot Plot_n2_des -geom n2_des -show_mesh
+#-> 0
+zoom_plot -plot Plot_n2_des -factor 1.77156
+set_material_prop {Silicon} -plot Plot_n2_des -geom n2_des -hide_mesh
+#-> 0
+set_field_prop -plot Plot_n2_des -geom n2_des hDensity -show_bands
+#-> 0
+zoom_plot -plot Plot_n2_des -factor 1.1
+zoom_plot -plot Plot_n2_des -factor 1.1
+zoom_plot -plot Plot_n2_des -factor 1.1
+zoom_plot -plot Plot_n2_des -factor 0.909091
+zoom_plot -plot Plot_n2_des -factor 1.331
+exit 0
+ 

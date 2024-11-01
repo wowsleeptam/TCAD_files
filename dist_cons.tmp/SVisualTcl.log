@@ -1,0 +1,24 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 01, 2024. 04:00:55.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/tmp/dist_cons.tmp/n2_des.tdr
+create_plot -dataset n2_des
+select_plots {Plot_n2_des}
+#-> Plot_n2_des
+#-> Plot_n2_des
+#-> n2_des
+set_field_prop -plot Plot_n2_des -geom n2_des eDensity -show_bands
+#-> 0
+set_field_prop -plot Plot_n2_des -geom n2_des eDensity -hide_bands
+#-> 0
+exit 0
+ 
