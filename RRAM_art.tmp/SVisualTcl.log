@@ -1,0 +1,60 @@
+###########################################
+# Sentaurus Visual N-2017.09.
+# Tcl log file.
+#------------------------------------------
+# Date: Nov 02, 2024. 05:05:14.
+# Version: 27.0.563 (1.563)
+# Mode: Interactive (GUI).
+# Hostname: localhost.localdomain.
+# Machine: Linux, x86_64, x86_64.
+# Kernel: 2.6.32-504.el6.x86_64.
+###########################################
+
+load_file /home/sentaurus/STDB/tmp/RRAM_art.tmp/n1_fps.tdr
+create_plot -dataset n1_fps_geometry_0
+select_plots {Plot_n1_fps_geometry_0}
+#-> Plot_n1_fps_geometry_0
+#-> Plot_n1_fps_geometry_0
+create_plot -dataset n1_fps_geometry_1
+select_plots {Plot_n1_fps_geometry_1}
+#-> Plot_n1_fps_geometry_1
+#-> Plot_n1_fps_geometry_1
+#-> n1_fps_geometry_0
+select_plots {Plot_n1_fps_geometry_0}
+#-> Plot_n1_fps_geometry_0
+rotate_plot -plot Plot_n1_fps_geometry_0 -x -146.236 -y -157.791 -z -81.3543 -absolute
+#-> 0
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.953463
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.04881
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.04881
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.04881
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.953463
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.15369
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.04881
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.04881
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.1
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.953463
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.15369
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.953463
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.953463
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.909091
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.04881
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.909091
+rotate_plot -plot Plot_n1_fps_geometry_0 -x -88.3569 -y -99.9297 -z -42.0155 -absolute
+#-> 0
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.953463
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.909091
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 1.04881
+zoom_plot -plot Plot_n1_fps_geometry_0 -factor 0.953463
+rotate_plot -plot Plot_n1_fps_geometry_0 -x -87.838 -y -94.3455 -z 50.6977 -absolute
+#-> 0
+rotate_plot -plot Plot_n1_fps_geometry_0 -x -67.0861 -y -54.5408 -z -41.0379 -absolute
+#-> 0
+rotate_plot -plot Plot_n1_fps_geometry_0 -x -69.9938 -y -75.4316 -z -36.3427 -absolute
+#-> 0
+rotate_plot -plot Plot_n1_fps_geometry_0 -x -66.437 -y -83.0534 -z -51.1696 -absolute
+#-> 0
+rotate_plot -plot Plot_n1_fps_geometry_0 -x -64.9087 -y -82.3324 -z -58.3159 -absolute
+#-> 0
+exit 0
+ 

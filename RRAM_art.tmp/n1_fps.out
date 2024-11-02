@@ -1,0 +1,144 @@
+****************************************************************************
+***                          Sentaurus Process                           ***
+***                          Version N-2017.09                           ***
+***                        (1.563, x86_64, Linux)                        ***
+***                                                                      ***
+***                       Copyright (C) 1993-2002                        ***
+***          The board of regents of the University of Florida           ***
+***                       Copyright (C) 1994-2017                        ***
+***                            Synopsys, Inc.                            ***
+***                                                                      ***
+***  This software and the associated documentation are confidential     ***
+***  and proprietary to Synopsys, Inc.  Your use or disclosure of this   ***
+***  software is subject to the terms and conditions of a written        ***
+***  license agreement between you, or your company, and Synopsys, Inc.  ***
+****************************************************************************
+
+Compiled Wed Aug  9 04:45:36 PDT 2017 on tcadprod35
+
+      Started at: Sat Nov  2 05:07:26 2024 (CST)
+       User name: sentaurus
+       Host name: localhost.localdomain
+             PID: 302
+    Architecture: x86_64
+Operating system: Linux rel. 2.6.32-504.el6.x86_64 ver. #1 SMP Tue Sep 16 01:56:35 EDT 2014
+
+------------------------------------------------------------------------------
+Checking syntax of n1_fps.cmd:
+
+Syntax check complete.
+------------------------------------------------------------------------------
+
+Starting Tcl interpreter with inputfile: n1_fps.cmd
+            sprocess: Checked Out
+
+Loading models file: /home/eda/sentaurus-2017.09/sentaurus/N_2017.09/bin/../tcad/current/lib/sprocess-27.0.563/TclLib/SPROCESS.models... done.
+------------------------------------------------------------------- line -----
+line X location= 0.00e+00<nm> spacing= 1.00<nm> tag= "x_start"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line X location= 15.00<nm> spacing= 1.00<nm> tag= "x_end"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 0.00e+00<nm> spacing= 1.00<nm> tag= "y_start"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Y location= 15.00<nm> spacing= 1.00<nm> tag= "y_end"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Z location= 0.00e+00<nm> spacing= 0.100<nm> tag= "z_start"
+------------------------------------------------------------------------------
+------------------------------------------------------------------- line -----
+line Z location= 3.00<nm> spacing= 0.100<nm> tag= "z_end"
+------------------------------------------------------------------------------
+----------------------------------------------------------------- region -----
+region xlo= "x_start" xhi= "x_end" ylo= "y_start" yhi= "y_end" zlo= "z_start" zhi= "z_end" name= "Aboba" HfO2
+------------------------------------------------------------------------------
+------------------------------------------------------------------- init -----
+init !DelayFullD
+------------------------------------------------------------------------------
+          sprocess2d: Checked Out
+
+          sprocess3d: Checked Out
+
+Creating structure...
+Initializing boundary from bulk mesh...decimating...done.
+Recreating refinements to take into account updated simulation dimension.
+Done recreating refinements.
+
+
+Points: 7936
+Nodes: 7936
+Edges: 50685
+Faces: 83250
+Volumes: 40500
+
+----------------------------------------------------------------- struct -----
+struct tdr= "n1_fps.tdr"
+------------------------------------------------------------------------------
+Points: 7936
+Nodes: 7936
+Edges: 50685
+Faces: 83250
+Volumes: 40500
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n1_fps.tdr...done
+
+----------------------------------------------------------------- select -----
+select Z= "1e20 /(3e-3*2*3.141592653589793)*exp(-1/(2*3e-3*3e-3)*((x-7e-3)*(x-7e-3)+(y-7e-3)*(y-7e-3)))" name= "conc" store
+------------------------------------------------------------------------------
+----------------------------------------------------------------- struct -----
+struct tdr= "n1_fps.tdr"
+------------------------------------------------------------------------------
+Points: 7936
+Nodes: 7936
+Edges: 50685
+Faces: 83250
+Volumes: 40500
+
+
+** Warning **
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value. !
+ ... continuing execution
+
+Writing file n1_fps.tdr...done
+
+------------------------------------------------------------------------------
+License features used:
+    sprocess
+    sprocess2d
+    sprocess3d
+------------------------------------------------------------------------------
+
+Elapsed Time:	00:00:15
+User Time:	00:00:05
+CPU Time:	00:00:04
+
+Detailed CPU time report:
+
+1.19 sec (38.5%) struct command (2 calls).
+0.88 sec (28.4%) Other Program Parts (1 calls).
+0.42 sec (13.4%) implant command (230 calls).
+0.30 sec (9.7%) init command (1 calls).
+0.17 sec (5.4%) mater command (94 calls).
+
+Detailed elapsed time report:
+
+1.20 sec (38.8%) struct command (2 calls).
+0.84 sec (27.1%) Other Program Parts (1 calls).
+0.43 sec (13.7%) implant command (230 calls).
+0.30 sec (9.7%) init command (1 calls).
+0.17 sec (5.5%) mater command (94 calls).
+
+Simulation completed with 1 warning.
+================================================
+
+WARNING 1 2 times
+=======================================================
+No coordinate system has been set. Default coordinate system is coord.ucs. Using default value.
+

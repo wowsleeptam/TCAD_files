@@ -1,0 +1,15 @@
+# Copyright (C) 1994-2017 Synopsys Inc.
+# swbtree vcurrent, Sat Nov  2 05:04:27 2024
+
+# --- simulation flow
+sprocess sprocess "" {}
+sprocess sigm "3" {1e-3}
+sprocess mean "7" {7e-3}
+# --- variables
+# --- scenarios and parameter specs
+scenario default sigm ""
+scenario default mean ""
+# --- simulation tree
+0 2 0 {} {default} 0
+1 3 2 {1e-3} {default} 0
+2 1 3 {7e-3} {default} 0
